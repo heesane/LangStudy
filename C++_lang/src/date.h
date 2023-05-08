@@ -33,3 +33,34 @@ void date::setTime() {
 void date::showTime() {
     std::cout << hour << ":" << minute << ":" << second << std::endl;
 }
+
+class Day {
+    private:
+        int year;
+        int month;
+        int day;
+    public:
+        Day();
+        void setDay();
+        void showDay();
+};
+
+Day::Day() {
+    int year = 0;
+    int month = 0;
+    int day = 0;
+}
+
+void Day::setDay() {
+    std::cout << "Year: ";
+    std::cin >> year;
+    std::cout << "Month: ";
+    std::cin >> month;
+    std::cout << "Day: ";
+    std::cin >> day;
+    std::cout << std::endl;
+}
+
+void Day::showDay() {
+    std::cout << year << "/" << month << "/" << day << std::endl;
+}
