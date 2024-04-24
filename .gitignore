@@ -4,4 +4,6 @@
 !*.c
 !*.h
 !*.java
+!*.go
+
 .vscode/
