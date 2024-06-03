@@ -38,10 +38,10 @@ func main() {
 	dog := struct {
 		name   string
 		isGood bool
-	}(
+	}{
 		"Rex",
 		true,
-	)
+	}
 
 	fmt.Println(dog)
 
